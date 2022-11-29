@@ -1,0 +1,69 @@
+#cancelBlock {
+    height: 80vh;
+    width: 100%;
+}
+
+#cancelBlock>article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+#cancelBlock article h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: .34px;
+    color: #3e3e52;
+    text-align: center;
+    padding-top: 32px;
+}
+
+#cancelBlock article form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+}
+
+#cancelBlock article form small {
+    color: #d84e55;
+}
+
+#cancelBlock>article form input {
+    width: 300px;
+    margin-right: 20px;
+}
+
+#cancelBlock>article span {
+    color: #3e3e52;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 8px;
+}
+
+#cancelBlock>article div>.ticketIcon {
+    margin-top: 22px;
+}
+
+#cancelBlock article form aside {
+    display: flex;
+}
+
+#cancelBlock article form button {
+    background-color: #d84e55;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.43;
+    letter-spacing: .88px;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    cursor: pointer;
+    float: right;
+    margin-top: 30px;
+}
