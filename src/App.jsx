@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import Awards from "./components/Awards";
+import GlobalPresence from "./components/GlobalPresence";
+import NumberComponent from "./components/NumberComponent";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <Awards />
+      <GlobalPresence />
+      <NumberComponent/>
+    </div>
+  );
+};
 
-export default App
+export default App;
