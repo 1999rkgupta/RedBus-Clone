@@ -7,7 +7,7 @@ import React from "react";
   referrerpolicy="no-referrer"
 />;
 
-const App = () => {
+const Footer = () => {
   return (
     <div>
       <section id="footerSec">
@@ -366,4 +366,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Footer;
