@@ -3,6 +3,10 @@
 # dependencies
 /node_modules
 /.pnp
+/public
+/index.js
+/logo.svg
+
 .pnp.js
 
 # testing
