@@ -49,7 +49,7 @@ const GlobalPresence = () => {
           <div>
             <figure>
               <a href="https://www.redbus.co/" target="_new">
-                <span class="fi fi-my"></span>
+                <span className="fi fi-my"></span>
               </a>
               <a href="https://www.redbus.id/">
                 <figcaption className={Styles.country}>MALAYSIA</figcaption>
@@ -59,7 +59,7 @@ const GlobalPresence = () => {
           <div>
             <figure>
               <a href="https://www.redbus.co/" target="_new">
-                <span class="fi fi-pe"></span>
+                <span className="fi fi-pe"></span>
               </a>
               <a href="https://www.redbus.id/">
                 <figcaption>PERU</figcaption>
@@ -69,7 +69,7 @@ const GlobalPresence = () => {
           <div>
             <figure>
               <a href="https://www.redbus.co/" target="_new">
-                <span class="fi fi-sg"></span>
+                <span className="fi fi-sg"></span>
               </a>
               <a href="https://www.redbus.id/">
                 <figcaption>SINGAPORE</figcaption>

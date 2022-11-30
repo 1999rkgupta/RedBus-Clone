@@ -1,0 +1,270 @@
+body{
+        font-family: 'Montserrat', sans-serif;
+/* letter-spacing: 1px; */
+}
+#redBus{
+    background-color: #fff;
+   width: 100%;
+   height: 100vh;
+   /* background-image: url('https://s2.rdbuz.com/web/images/home/city_scape_app_download.png'); */
+   background-repeat: no-repeat;
+   position: relative;
+
+}
+#redBus article+img{
+    width: 100%;
+    position: absolute;
+     top: 185px;
+     opacity: 0.2;
+}
+
+#redBus article{
+width: 90%;
+height:100vh;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+margin-top: 0px;
+
+
+}
+.width{
+    display: flex;
+    width: 700px;
+
+}
+.description{
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    z-index: 1;
+    
+}
+
+.desc_group1{
+    font-size: 30px;
+    line-height: 1.1em;
+    color: #4a4a4a;
+    font-weight: 400;
+    /* width: 590px; */
+    
+   
+}
+.desc_group1 h1{
+    
+    /* background-color: #D84E55; */
+    margin-left: -10px;
+    margin-bottom: 20px;
+    letter-spacing: -0.3px;
+}
+.desc_group2{
+    color: #4a4a4a;
+    font-size: 14px;
+    width: 387px;
+    font-weight: 400;
+    margin-top:0px;
+}
+.desc_group3{
+    width: 256px;
+    height: 36px;
+    margin: 10px 0px 0px -131px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #4a4a4a;
+   
+}
+.desc_group4{
+    width: 296.6px;
+    height: 16px;
+   margin: 14px 0px 0px -86px;
+  
+}
+.desc_group4 select{
+width: 26%;
+height: 23px;
+border-radius: 4px;
+background-color: #fff;
+}
+.desc_group4 input{
+    width: 207px;
+    height: 24px;
+    background-color: #fff;
+    margin: 0 0 0 10px;
+    border-radius: 4px;
+    padding: 1px 2px;
+}
+
+.desc_group5 button{
+    width: 149px;
+    height: 29px;
+    margin: 20px 0px 0px -191px;
+    text-transform: uppercase;
+    background-color: #D84E55;
+    color: #FFF;
+    border-radius: 1px;
+    border: none;
+}
+
+.desc_group6{
+    margin-left: -295px;
+    width: 90px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img img{
+    width: 426px;
+    height:552px ;
+    margin-left: 300px;
+    margin-top:60px;
+    z-index: 1;
+    position: relative;
+top: 0;
+}
+
+#redBus3{
+    width: 100%;
+    height: 110vh;
+    background-color: rgba(236, 230, 230, 0.836);
+    border-bottom:  2px solid #ccc;
+    border-top:  2px solid #ccc;
+  
+}
+#redBus3 article{
+    width: 100%;
+    height: inherit;
+    margin: 0px auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+}
+.content{
+ 
+    width: inherit;
+    height:50vh;
+    display: flex;
+    position: relative;
+ 
+}
+#redBus3 article h1{
+    font-weight: 600;
+    font-size: 30px;
+    color: #4a4a4a;
+    
+}
+#redBus3 article img{
+  width: 87px;  
+  height: 100px;
+}
+.subContent{
+    /* position: absolute;
+    top: 90px; */
+
+    width: 90%;
+    margin: 0px auto;
+    height:50vh;
+    display: flex;
+   
+}
+.subContent>.content1{
+height:390px;
+width: 33.33%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 55px;
+border: 0.5px solid #ccc;
+background-color: #fff;
+}
+
+.content2{
+    width: 33.33%;
+    height:390px;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 55px;
+border: 0.5px solid #ccc;
+background-color: #fff;
+}
+.content3{
+    width: 33.33%;
+    height:390px;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 55px;
+border: 0.5px solid #ccc;
+background-color: #fff;
+}
+.content1 img{
+    width: 111.59px;
+    height: 90px;
+}
+.content2 img{
+    width: 111.59px;
+    height: 90px;
+}
+.content3 img{
+    width: 111.59px;
+    height: 90px;
+}
+.content1 h3{
+    font-size: 14px;
+    color: #4a4a4a;
+    margin: 0 102px 0 102px; 
+}
+
+
+.content2 h3{
+    text-align: center;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+
+.content3 h3{
+    font-size: 14px;
+    color: #4a4a4a; 
+   
+}
+
+
+
+.content1 p{
+    text-align: center;
+    font-size: 14px ;
+    color: #737373;
+   
+}
+.content2 p{
+    text-align: center;
+    font-size: 14px ;
+    color: #737373;
+   
+}
+.content3 p{
+    text-align: center;
+    font-size: 14px ;
+    color: #737373;
+   
+}
+
+/* for tablets */
+@media (max-width:900px) {}
+
+/* high ebds mobiles */
+@media (max-width:600px) {}
+
+/* for small end mobiles */
+@media (max-width:480px) {}
