@@ -16,10 +16,14 @@ const FooterPart5 = () => {
       </p>
       <p>
         <span className={Styles.icons}>
-          <FaFacebookF />
+          <a href="https://www.facebook.com/redBus.in/" target="_new">
+            <FaFacebookF />
+          </a>
         </span>
         <span className={Styles.icons}>
-          <AiOutlineTwitter />
+          <a href="https://twitter.com/redBus_in" target="_new">
+            <AiOutlineTwitter />
+          </a>
         </span>
       </p>
       <a href="">Ⓒ 2022 ibibogroup All rights reserved</a>
