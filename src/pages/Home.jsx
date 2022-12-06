@@ -1,6 +1,8 @@
 import React from "react";
-import Navbar from './../components/navbar1/Navbar';
-import Main from './../components/navbar1/Main';
+// import Navbar from './../components/navbar1/Navbar';
+import Navbar from './../components/navbar/Navbar';
+import Main from './../components/navbar/Main';
+// import Main from './../components/navbar1/Main';
 import RedBus2 from './../components/secondSection2/RedBus2';
 import Redbus3 from './../components/secondSection2/Redbus3';
 import Awards from './../components/sections3/Awards';
