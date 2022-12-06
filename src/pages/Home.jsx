@@ -15,7 +15,6 @@ import Footer from './../components/footer5/Footer';
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <Main />
       <RedBus2 />
       <Redbus3 />

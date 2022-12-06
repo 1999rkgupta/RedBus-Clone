@@ -1,6 +1,6 @@
 import React, { useState, createContext, useEffect } from "react";
 import { onAuthStateChanged, signOut } from "firebase/auth";
-import { auth } from "../apis/Firebase";
+import { auth } from "../apis/firebase";
 
 export const AuthContext = createContext(null);
 
@@ -22,11 +22,11 @@ const AuthProvider = ({ children }) => {
         userInfo.isAnonymous === false
       ) {
         isSetLoading(true);
-        setAuthUser(userInfo);
+        setUser(userInfo);
         let token = userInfo.accessToken;
         window.sessionStorage.setItem("token", token);
       } else {
-        setAuthUser(null);
+        setUser(null);
         window.sessionStorage.removeItem("token");
       }
       isSetLoading(false);
@@ -37,4 +37,7 @@ const AuthProvider = ({ children }) => {
       {children}
     </AuthContext.Provider>
   );
-};
+}
+
+
+export default AuthProvider;

@@ -1,12 +1,26 @@
 import React from "react";
 import Home from './pages/Home';
+import Login from './components/auth/Login';
+import Register from "./components/auth/Register";
+import { BrowserRouter as Router ,Routes,Route } from "react-router-dom";
+import Navbar from "./components/navbar/Navbar";
+
+  import { ToastContainer, toast } from "react-toastify";
+  import "react-toastify/dist/ReactToastify.css";
 
 
 const App = () => {
   return (
-    <div>
-      <Home />
-    </div>
+    <Router>
+      <Navbar />
+      <ToastContainer theme="dark"/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
+         
+      </Routes>
+</Router>
   );
 };
 

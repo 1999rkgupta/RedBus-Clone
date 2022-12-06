@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Styles from "./_navbar.module.css";
 // import { Link } from "react-router-dom";
 
@@ -16,9 +17,7 @@ const Menu = () => {
               id="manage-booking"
               placeholder="Manage Booking"
             >
-              <option value="manage-booking">
-                Manage Booking
-              </option>
+              <option value="manage-booking">Manage Booking</option>
               <option value="">Cancel</option>
               <option value="">Show My Ticket</option>
               <option value="">Email/SMS</option>
@@ -26,18 +25,9 @@ const Menu = () => {
           </a>
         </li>
         <li className={Styles.signUp}>
-          <a href="#">
-            <span>
-              <i
-                className="far fa-user-circle"
-                style={{ fontSize: "20px", fontWeight: "100" }}
-              ></i>
-              <select name="" id="">
-                <option value=""></option>
-                <option value="">Sign In/Sign Up</option>
-              </select>
-            </span>
-          </a>
+          <Link to="/">Home</Link>
+          <Link to="/register">Register</Link>
+          <Link to="/login">Login </Link>
         </li>
       </ul>
     </div>
