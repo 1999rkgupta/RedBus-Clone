@@ -70,64 +70,70 @@ body {
   display: block;
 }
 
-.logoBlock ul{
+.logoBlock ul {
   display: flex;
 }
-.logoBlock ul li{
+.logoBlock ul li {
   list-style: none;
   padding: 10px;
   cursor: pointer;
 }
-.active{
-  border-bottom: 2px solid rgb(204,204,204);
+.active {
+  border-bottom: 2px solid rgb(204, 204, 204);
   padding-bottom: 10px;
 }
-.logoBlock ul li a{
+.logoBlock ul li a {
   color: white;
   text-decoration: none;
   font-size: 13px;
   font-weight: normal;
+      font-size: 15px;
+  font-weight: 500;
 }
-.signUp a select{
+.signUp a select {
   width: 20px;
 }
 
-.menuBlock select{
+.menuBlock select {
   background-color: transparent;
   border: none;
   color: white;
   outline: none;
 }
-.menuBlock select option{
+.menuBlock select option {
   color: black;
   padding-top: 5px;
 }
 
-.menuBlock ul{
+.menuBlock ul {
   display: flex;
 }
-.menuBlock ul li{
+.menuBlock ul li {
   list-style: none;
   padding: 5px;
   cursor: pointer;
-  
 }
-.menuBlock ul li a{
+.menuBlock ul li a {
   color: white;
   text-decoration: none;
   font-size: 17px;
   font-weight: 600;
 }
 
-.signUp a select{
+.signUp a select {
   width: 20px;
 }
-.manage select{
+
+.signUp a {
+  padding-right: 20px;
+}
+
+.manage select {
   font-size: 17px;
   font-weight: 500;
 }
 
-.menuBlock select{
+.menuBlock select {
   background-color: transparent;
   border: none;
   color: white;
@@ -218,7 +224,7 @@ input[type="date"] {
   height: 18em;
   padding: 20px;
 }
-.article1 ul:hover{
+.article1 ul:hover {
   transform: scale(1.02);
 }
 .article1 ul li {
@@ -253,7 +259,7 @@ input[type="date"] {
   padding: 20px;
   /* transform: translate(2); */
 }
-.article2 ul:hover{
+.article2 ul:hover {
   transform: scale(1.02);
 }
 
@@ -261,6 +267,16 @@ input[type="date"] {
   list-style: none;
 }
 
-#mainSection{
+#mainSection {
   background-color: #eeee;
+}
+
+button {
+  border: none;
+  background: #d74f57;
+  color: rgb(255, 255, 255);
+  font-size: 17.5px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }

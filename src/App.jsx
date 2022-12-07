@@ -7,6 +7,7 @@ import Navbar from "./components/navbar/Navbar";
 
   import { ToastContainer, toast } from "react-toastify";
   import "react-toastify/dist/ReactToastify.css";
+import PageNotFound from './pages/PageNotFound';
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
+        <Route path="*" element={<PageNotFound />} />
          
       </Routes>
 </Router>
