@@ -3,12 +3,13 @@ import styles from "./_auth.module.css";
 import { Button } from "@mui/material/Button";
 import { toast } from "react-toastify";
 import { auth } from "../../apis/firebase";
+import { updateProfile } from "firebase/auth";
 import {
   createUserWithEmailAndPassword,
   sendEmailVerification,
 } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
-
+import md5 from "md5";
 const Register = () => {
   let navigate = useNavigate();
   let [form, setForm] = useState({
@@ -27,16 +28,21 @@ const Register = () => {
     try {
       e.preventDefault();
       if (password !== confirmPassword) {
-        toast.error(" password  not matching" );
+        toast.error(" password  not matching");
       } else {
         let userData = await createUserWithEmailAndPassword(
           auth,
           email,
           password
         );
-        setForm(userData)
+        setForm(userData);
         sendEmailVerification(userData.user);
         let message = `Email verification mail has sent to ${email} address please verify...`;
+
+        updateProfile(userData.user, {
+          displayName: username,
+          photoURL: `https://www.gravatar.com/avatar/${md5(email)}?q=identicon`,
+        });
         toast.success(message);
         navigate("/login");
         // console.log(state);
@@ -72,9 +78,7 @@ const Register = () => {
               />
             </div>
             <div>
-              <h1>
-                Register and Avail Offers
-              </h1>
+              <h1>Register and Avail Offers</h1>
             </div>
 
             {/* <div className={styles.formDiv}>
@@ -159,4 +163,3 @@ const Register = () => {
 };
 
 export default Register;
-

@@ -1,5 +1,6 @@
 import React from 'react';
 import Styles from "./_navbar.module.css";
+import  PlacesJSON from '../../apis/Places.json'
 
 const Main = () => {
   return (

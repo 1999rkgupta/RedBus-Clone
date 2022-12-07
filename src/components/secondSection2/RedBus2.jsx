@@ -42,7 +42,7 @@ const RedBus2 = () => {
               <input type="text" placeholder="Enter your mobile number" />
             </div>
             <div className={styles.desc_group5}>
-              <button>sms me the link</button>
+              <button>Book Now</button>
             </div>
 
             <div className={styles.desc_group6}>

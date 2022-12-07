@@ -91,14 +91,14 @@
 
 .form div img {
   position: absolute;
-  top: 165px;
-  right: 655px;
+  top: 130px;
+  right: 660px;
   width: 80px;
   height: auto;
 }
 .form div h1 {
   position: absolute;
-  top: 250px;
+  top: 210px;
   right: 478px;
   color: rgba(41, 41, 41, 0.731);
 }
